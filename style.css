@@ -216,3 +216,37 @@ input:placeholder-shown {
     font-size: 16px;
     font-family: lato;
 }
+
+footer {
+    background-color: rgba(17, 16, 16, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.footer-content h1 {
+    color: White;
+    font-size: 30px;
+    font-family: lato;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.footer-content h1 span {
+    color: rgba(229, 84, 115, 1);
+}
+
+.slogan {
+    color: rgb(202, 200, 200);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: lato;
+    color: #e8dada;
+}
