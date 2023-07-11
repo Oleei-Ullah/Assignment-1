@@ -1,7 +1,15 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 14px;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 .container {
@@ -144,13 +152,24 @@ button {
     color: rgba(229, 84, 115, 1)
 }
 
+#social {
+    margin-top: 80px;
+}
+
 .social-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     flex: auto;
+    margin-top: 40px;
 }
+
+.flowers img{
+    width: 100%;
+}
+
+
 
 #about {
     margin-top: 50px;
@@ -164,4 +183,36 @@ button {
     font-size: 15px;
     margin: 0;
     padding-top: 8px;
+}
+#contact {
+    margin: 80px 0;
+}
+
+#contact .container {
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('images/Rectangle 9.png');
+}
+
+.form {
+    margin-top: 20px;
+}
+.email {
+    width: 70%;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input:placeholder-shown {
+    font-size: 16px;
+    font-family: lato;
 }
