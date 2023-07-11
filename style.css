@@ -38,11 +38,15 @@ body {
 .align-start {
     align-items: start;
 }
-
+.w-30 {
+    width:30%;
+}
 .w-50 {
     width: 50%;
 }
-
+.w-70 {
+    width:70%;
+}
 .w-80 {
     width:80%;
 }
@@ -53,10 +57,10 @@ body {
 }
 
 button {
-    padding: 5px 10px;
+    padding: 5px 20px;
     background-color: #f81a4a67;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
 }
 
@@ -119,6 +123,20 @@ button {
 
 .grayish {
     background-color: rgba(71, 125, 17, 0.15);
+}
+
+#signUp {
+    margin-top: 60px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 50px 20px;
+}
+
+.sign-content {
+    text-align: center;
+}
+
+.discount {
+    color: rgba(229, 84, 115, 1)
 }
 
 .social-content {
